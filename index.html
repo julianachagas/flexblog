@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlexBlog</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar container">
+    <p>Mon/Fri - 08:00 to 18:00</p>
+    <a href="+5521999999999">+55 21 99999-9999</a>
+    <p>Street Name, 1981, Botafogo - RJ - Brazil</p>
+  </div>
+  <header class="header container">
+    <div class="header-logo">
+      <a href="#index.html">FlexBlog</a>      
+    </div>
+    <nav>
+      <ul class="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 class="main-title">Studying FlexBox: <span>Flex Container and Flex Items</span></h1>    
+    <section class="about" id="about">
+      <div class="about-info">
+        <h2 class="section-title">About</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae debitis aliquid illo atque tenetur doloribus, nisi soluta voluptas dolore temporibus.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, reprehenderit voluptatibus. Expedita enim adipisci dolore odit corrupti nisi, suscipit, quo voluptatibus repudiandae iusto impedit id? Molestiae rerum in magnam commodi.</p>
+      </div>
+      <div class="about-img">
+        <img src="assets/sobre1.jpg" alt="">
+      </div>
+      <div class="about-img">
+        <img src="assets/sobre2.jpg" alt="">
+      </div>
+    </section>
+    <section class="services container" id="services">
+      <h2 class="section-title">Services</h2>
+      <div class="services-list">
+        <div class="services-item purple">
+          <h3>Purple</h3>
+          <img src="assets/produtos1.jpg" alt="Service 1">
+        </div>
+        <div class="services-item pink">
+          <h3>Pink</h3>
+          <img src="assets/produtos2.jpg" alt="Service 2">
+        </div>
+        <div class="services-item blue">
+          <h3>Blue</h3>
+          <img src="assets/produtos3.jpg" alt="Service 3">
+        </div>
+      </div>
+    </section>
+    <section class="plans" id="plans">
+      <h2 class="visually-hidden">Plans</h2>
+      <div class="plans-list">
+        <div class="plans-item">
+          <h3>Bronze</h3>
+          <p><sup>£</sup>19</p>
+          <ul>
+            <li>Unlimited plan</li>
+            <li>Restrict access</li>
+            <li>Secret content</li>
+            <li>24h Support</li>
+          </ul>
+          <a href="#" class="plans-cta">Buy now</a>
+        </div>
+        <div class="plans-item">
+          <h3>Silver</h3>
+          <p><sup>£</sup>39</p>
+          <ul>
+            <li>Unlimited plan</li>
+            <li>Restrict access</li>
+            <li>Secret content</li>
+            <li>24h Support</li>
+            <li>Exclusive discounts</li>
+          </ul>
+          <a href="#" class="plans-cta">Buy now</a>
+        </div>
+        <div class="plans-item">
+          <h3>Gold</h3>
+          <p><sup>£</sup>59</p>
+          <ul>
+            <li>Unlimited plan</li>
+            <li>Restrict access</li>
+            <li>Secret content</li>
+            <li>24h Support</li>
+            <li>Exclusive discounts</li>
+            <li>Free Download</li>
+          </ul>
+          <a href="#" class="plans-cta">Buy now</a>
+        </div>
+      </div>
+    </section>
+    <section class="benefits container" id="benefits">
+      <h2 class="section-title">Benefits</h2>
+      <div class="benefits-list">
+        <div class="benefits-item">
+          <h3>Quality</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, pariatur incidunt, facilis beatae id odit.</p>
+        </div>
+        <div class="benefits-item">
+          <h3>Expertise</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ab, delectus distinctio, maiores ratione sint officiis ipsa repudiandae esse dolor magni animi modi. </p>
+        </div>
+        <div class="benefits-item">
+          <h3>Reliability</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, pariatur incidunt, facilis beatae id odit.</p>
+        </div>
+        <div class="benefits-item">
+          <h3>Professionals</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, pariatur incidunt, facilis beatae id odit.</p>
+        </div>
+        <div class="benefits-item">
+          <h3>Price</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit suscipit assumenda a laborum consequuntur repudiandae dolor explicabo? </p>
+        </div>
+        <div class="benefits-item">
+          <h3>Sustainability</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, pariatur incidunt, facilis beatae id odit.</p>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter container">
+      <div class="newsletter-info">
+        <h2>Newsletter</h2>
+        <p>subscribe and get the latest news and exclusive discounts</p>
+      </div>
+      <form action="#" method="POST" class="newsletter-form">
+        <label for="email" class="visually-hidden">Subscribe</label> 
+        <input type="email" name="email" id="email" placeholder="your email">
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>    
+  </main>
+  <footer class="footer container">
+    <p>FlexBlog &copy; Juliana Chagas for Origamid</p>
+    <a href="https://github.com/julianachagas">Github</a>
+  </footer>  
+</body>
+</html>
